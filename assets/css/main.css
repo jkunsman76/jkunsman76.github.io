@@ -24,7 +24,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -54,6 +55,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	
 }
 
 mark {
@@ -600,7 +602,7 @@ input, select, textarea {
 		}
 
 /* Icon */
-
+/* 
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -634,7 +636,7 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
-		}
+		} */
 
 /* Image */
 
@@ -1236,7 +1238,7 @@ input, select, textarea {
 
 		}
 
-/* Header */
+/* header */
 
 	#header {
 		display: -moz-flex;
@@ -1261,6 +1263,7 @@ input, select, textarea {
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		max-width: 100%;
 		text-align: center;
+		
 	}
 
 		#header > * {
@@ -1270,6 +1273,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
 			margin-top: 3.5rem;
+			
 		}
 
 			#header > *:before {
@@ -1280,7 +1284,7 @@ input, select, textarea {
 				left: calc(50% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				background: rgb(19, 18, 18)
 			}
 
 		#header > :first-child {
@@ -1291,21 +1295,21 @@ input, select, textarea {
 				display: none;
 			}
 
-		#header .logo {
+		/* #header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			border: solid 1px rgb(19, 18, 18);
 			border-radius: 100%;
-		}
+		} */
 
-			#header .logo .icon:before {
+			/* #header .logo .icon:before {
 				font-size: 2rem;
-			}
+			} */
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff;
+			border-color: rgb(19, 18, 18);
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
@@ -1344,13 +1348,13 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: solid 1px rgb(19, 18, 18);
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 1px rgb(19, 18, 18);
 			}
 
 				#header nav ul li:first-child {
